@@ -1,0 +1,23 @@
+.gauche{
+    
+}
+
+.droite{
+    
+}
+
+img{
+    border: solid 5px white;
+    border-radius:50%;
+    width: 80%;
+}
+
+.alignement{
+    margin-left: 27%;
+}
+
+a:hover{
+    color: white;
+    text-decoration:none;
+}
+

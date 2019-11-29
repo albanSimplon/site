@@ -1,5 +1,10 @@
+.jumbotron{
+    background-image: url(img/universe.jpg);
+    background-size: cover ;
+}
+
 .navbar{
-    height: 150px;
+    margin-left: 33%;
 }
 
 footer{
@@ -13,3 +18,10 @@ i{
 section{
     height: 500px;
 }
+
+header{
+    background-color: black;
+    background-image: url(img/universe.jpg);
+    
+}
+

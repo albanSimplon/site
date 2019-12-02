@@ -1,11 +1,4 @@
-.jumbotron{
-    background-image: url(img/universe.jpg);
-    background-size: cover ;
-}
 
-.navbar{
-    margin-left: 33%;
-}
 
 footer{
     height: 150px;
@@ -19,9 +12,49 @@ section{
     height: 500px;
 }
 
-header{
-    background-color: black;
-    background-image: url(img/universe.jpg);
+#carouselExampleIndicators{
+   
+    background-image: url(img/greyBackground.jpg);
+
     
 }
 
+
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+    
+  
+}
+
+.carousel-caption{
+    top: 27%;
+transform: translateY(-50%);
+
+}
+
+.lienProjet{
+    margin-top: 10%;
+}
+
+.carousel-caption h5{
+    font-size: 5vw;
+}
+
+.carousel-caption p{
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-caption{
+        top: 20%;
+    transform: translateY(-50%);
+    
+}
+}
+
+.btn-danger{
+    margin-left: 30%;
+}

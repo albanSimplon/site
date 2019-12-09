@@ -1,31 +1,13 @@
-
-
-footer{
-    height: 150px;
-}
-
-i{
-    margin-top: 35px;
-}
-
-section{
-    height: 500px;
-}
-
 #carouselExampleIndicators{
    
     background-image: url(img/greyBackground.jpg);
 
-    
 }
-
-
 
 .carousel-indicators li {
   width: 10px;
   height: 10px;
-  border-radius: 100%;
-    
+  border-radius: 100%; 
   
 }
 
@@ -52,9 +34,18 @@ transform: translateY(-50%);
         top: 20%;
     transform: translateY(-50%);
     
-}
+}}
+
+.imageAlban{
+    border-radius: 50%;
+    width: 90%;
+
 }
 
-.btn-danger{
-    margin-left: 30%;
-}
+@media screen and (max-width: 500px) {
+    .centrerimage{
+        margin-left: 20px;
+    
+}}
+
+
